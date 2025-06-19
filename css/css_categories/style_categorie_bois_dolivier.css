@@ -36,7 +36,7 @@
     margin-top: 3.5%;
     font-size: 4rem;
     font-weight: bold;
-    color: #ff4400;
+    color: #1a668b;
 }
 
 
@@ -57,13 +57,13 @@ aside {
   margin-right: 0;
   margin-top: 5%;
   /* background-color: #f9d8c8; */
-  border-right: 1px solid #ff4400;
+  border-right: 1px solid #1a668b;
   
 }
 aside h2 {
   font-size: 30px;
   margin-bottom: 20px;
-  color: #ff4400;
+  color: #1a668b;
 }
 
 aside a {
@@ -96,7 +96,7 @@ aside a {
 
 #header_container h2 {
   font-size: 3rem;
-  color: #ff4400;
+  color: #1a668b;
   margin-bottom: 10px;
 }
 

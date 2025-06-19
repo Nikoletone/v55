@@ -29,7 +29,7 @@
 }
 
 .form-header h1 {
-  color: #ff4400;             /* Couleur principale */
+  color: #1a668b;             /* Couleur principale */
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -78,8 +78,8 @@ input, textarea {
 /* État focus des champs */
 input:focus, textarea:focus {
   outline: none;
-  border-color: #ff4400;
-  box-shadow: 0 0 0 2px rgba(255, 68, 0, 0.1);
+  border-color: #1a668b;
+  box-shadow: 0 0 0 2px rgba(26, 102, 139, 0.1);
 }
 
 /* Style spécifique pour la zone de texte */
@@ -94,7 +94,7 @@ textarea {
 .submit-button {
   width: 100%;
   padding: 0.8rem;
-  background-color: #ff4400;
+  background-color: #1a668b;
   color: white;
   border: none;
   border-radius: 5px;
@@ -104,7 +104,7 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #e63d00;  /* Plus foncé au survol */
+  background-color: #155a74;  /* Plus foncé au survol */
 }
 
 /* ========================================

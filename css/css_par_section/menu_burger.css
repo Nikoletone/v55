@@ -26,8 +26,9 @@ nav {
   margin: 0 10px;         /* Espacement horizontal */
   position: relative;      /* Pour les effets de survol */
   text-decoration: none;   /* Supprime le soulignement */
-  font-size: 20px;        /* Taille de police */
-  color: #ff4400;
+  font-size: 25px;        /* Taille de police */
+  font-weight: 500;       /* Poids de la police */
+  color: #1a668b;
   padding: 10px 0;
 }
 
@@ -40,7 +41,7 @@ nav {
   width: var(--width, calc(100% / var(--items)));
   --index: 0;
   height: 3px;
-  background: #ff4400;
+  background: #1a668b;
 }
 
 .links > a:hover ~ .line {
@@ -55,7 +56,7 @@ nav {
 
 
 .links a:active{
-  color: #ff4400;
+  color: #1a668b;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -73,7 +74,7 @@ nav {
   position: relative;      /* Pour les effets de survol */
   text-decoration: none;   /* Supprime le soulignement */
   font-size: 12px;        /* Taille de police */
-  color: #ff4400;
+  color: #1a668b;
   padding: 10px 0;
 }
 

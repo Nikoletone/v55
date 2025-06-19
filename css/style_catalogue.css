@@ -54,14 +54,14 @@ header {
     margin-top: 3.5%;
     font-size: 4rem;
     font-weight: bold;
-    color: #ff4400;
+    color: #1a668b;
     z-index: 2; /* Ajout uniquement du z-index pour le rendre visible */
 }
 
 /* Style pour le h1 de la section produits */
 #productSection h1 {
     font-size: 2.5rem;
-    color: #ff4400;
+    color: #1a668b;
     margin: 20px 0;
     padding-left: 20px;
 }
@@ -84,14 +84,14 @@ aside {
   height: auto;
   padding: 30px;
   margin: 5% 0 0 0;
-  border-right: 1px solid #ff4400;
+  border-right: 1px solid #1a668b;
 }
 
 /* Styles des titres de la barre latérale */
 aside h2 {
   font-size: 30px;
   margin-bottom: 20px;
-  color: #ff4400;
+  color: #1a668b;
 }
 
 /* Styles des liens de la barre latérale */
@@ -114,7 +114,7 @@ aside a::after {
   bottom: -2px;
   width: 0%;
   height: 2px;
-  background-color: #ff4400;
+  background-color: #1a668b;
   transition: width 0.5s ease;
 }
 
@@ -134,7 +134,7 @@ aside a:hover::after {
 
 #header_container h2 {
   font-size: 3rem;
-  color: #ff4400;
+  color: #1a668b;
   margin-bottom: 10px;
 }
 
@@ -167,8 +167,8 @@ aside a:hover::after {
     padding: 10px;
     margin: 0;
     border-right: none;
-    border-bottom: 1px solid #ff4400;
-    border-top: 1px solid #ff4400;
+    border-bottom: 1px solid #1a668b;
+    border-top: 1px solid #1a668b;
   }
 
   /* Réduction de la taille des textes */

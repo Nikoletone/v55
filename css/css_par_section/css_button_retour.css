@@ -13,7 +13,7 @@
   margin-left: 85%;        /* Placement à droite de la page */
   
   /* Apparence */
-  border: 1px solid #ff4400;     /* Bordure orange */
+  border: 1px solid #1a668b;     /* Bordure bleue */
   background-color: #ffffff;     /* Fond blanc */
   border-radius: 5px;            /* Coins arrondis */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Ombre portée */
@@ -34,7 +34,7 @@
 
 .button .button__text {
   transform: translateX(30px);
-  color: #ff4400;
+  color: #1a668b;
   font-weight: 600;
 }
 
@@ -43,7 +43,7 @@
   transform: translateX(109px);
   height: 100%;
   width: 39px;
-  background-color: #fc5214;
+  background-color: #1a668b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +55,7 @@
 }
 
 .button:hover {
-  background: #fc5214;
+  background: #1a668b;
 }
 
 .button:hover .button__text {
@@ -68,11 +68,11 @@
 }
 
 .button:active .button__icon {
-  background-color: #fc5214;
+  background-color: #1a668b;
 }
 
 .button:active {
-  border: 1px solid #fc5214;
+  border: 1px solid #1a668b;
 }
 
 

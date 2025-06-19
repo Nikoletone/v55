@@ -29,7 +29,7 @@
     cursor: pointer;           /* Curseur pointeur au survol */
     z-index: 1;               /* Au-dessus des autres éléments */
     background-color: rgb(20, 20, 20);  /* Fond sombre */
-    box-shadow: 0px 0px 0px 4px #ff4400;  /* Contour orange */
+    box-shadow: 0px 0px 0px 4px #1a668b;  /* Contour bleu */
     transition-duration: 0.3s;   /* Animation douce */
     overflow: hidden;            /* Cache les débordements */
 }
@@ -52,7 +52,7 @@
 .btn-up:hover {
     width: 140px;
     border-radius: 50px;
-    background-color: #ff4400;
+    background-color: #1a668b;
     align-items: center;
     transition-duration: 0.3s;
 }

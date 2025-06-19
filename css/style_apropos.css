@@ -32,7 +32,7 @@
     margin-top: 3.5%;
     font-size: 4rem;
     font-weight: bold;
-    color: #ff4400;
+    color: #1a668b;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -62,7 +62,7 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ff4400;
+  color: #1a668b;
   font-family: 'Georgia', serif;
 }
 
@@ -75,13 +75,13 @@ h2 {
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color: #ff4400;
+  color: #1a668b;
 }
 
 h3 {
   font-size: 1.4rem;
   margin-top: 1.5rem;
-  color: #ff4400;
+  color: #1a668b;
 }
 
 p {
@@ -101,14 +101,14 @@ section {
 
 /* Style pour les liens */
 section a {
-  color: #ff4400;
+  color: #1a668b;
   text-decoration: none;
   font-weight: bold;
   transition: all 0.3s ease;
 }
 
 section a:hover {
-  color: #fc5214;
+  color: #1a668b;
   text-decoration: underline;
 }
 
@@ -137,7 +137,7 @@ section a:hover {
   margin-top: 3.5%;
   font-size: 4rem;
   font-weight: bold;
-  color: #ff4400;
+  color: #1a668b;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
