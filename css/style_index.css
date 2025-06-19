@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  list-style: none;
+}
+
+#logo2 {
+  width: 100%; /* Prend toute la largeur de l'écran */
+  height: 250px; /* Hauteur fixe */
+  overflow: hidden; /* Cache les débordements */
+  display: flex; /* Centre l'image */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image du logo */
+#logo2 img {
+  width: 100%; /* Remplir la largeur */
+  height: 100%; /* Remplir la hauteur */
+  object-fit: cover; /* Remplissage sans déformation */
+
+  /* Optimisation de la netteté */
+  image-rendering: auto; /* Par défaut : mieux pour les photos */
+  image-rendering: crisp-edges; /* Parfois utile pour les dessins */
+  image-rendering: -webkit-optimize-contrast; /* Optimisation spécifique WebKit */
+  display: block;
+}
+
+#lien_artiste {
+  width: 100%;
+  text-align: end;
+  position: absolute;
+  top: 31%;
+  right: 5px;
+  font-family: monospace;
+}
+#p_artiste {
+  color: #030302;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+/* style pour le main */
+#h1_nom_site {
+  color: #ff4400;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 3%;
+}
+
+/* ici on stylise le sous titre " nos prochaines ventes*/
+#h2_soustitre {
+  color: #000000;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 4%;
+  padding-left: 12%;
+}
+
+/* ici on stylise la div qui contient l'image de la date*/
+#date_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* ici on stylise l'image de la date*/
+#date_container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#flyer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+#flyer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 5%;
+  margin-bottom: 7%;
+}
+
+#position {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding-top: 70.7143%;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+  will-change: transform;
+}
+/* Responsive du main */
+@media (max-width: 750px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #h1_nom_site {
+    font-size: 20px;
+    margin-top: 3%;
+  }
+  #h2_soustitre {
+    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding-left: 5%;
+  }
+  #date_container {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+  #flyer1 {
+    width: 90%;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,81 @@
+/* ========================================
+   NAVIGATION PRINCIPALE
+   ======================================== */
+nav {
+  width: 100%;              /* Prend toute la largeur */
+  height: auto;             /* Hauteur automatique */
+  background-color: rgb(255, 255, 255);  /* Fond blanc */
+  padding: 1%;             /* Espacement intérieur */
+}
+
+/* ========================================
+   CONTENEUR DES LIENS
+   ======================================== */
+.links {
+  display: grid;           /* Disposition en grille */
+  /* Utilise une variable CSS pour définir le nombre de colonnes */
+  grid-template-columns: repeat(var(--items), 1fr);
+  position: relative;      /* Pour le positionnement des éléments enfants */
+  align-items: center;     /* Centrage vertical */
+  justify-content: center; /* Centrage horizontal */
+  text-align: center;      /* Alignement du texte */
+}
+
+/* Style des liens de navigation */
+.links > a {
+  margin: 0 10px;         /* Espacement horizontal */
+  position: relative;      /* Pour les effets de survol */
+  text-decoration: none;   /* Supprime le soulignement */
+  font-size: 20px;        /* Taille de police */
+  color: #ff4400;
+  padding: 10px 0;
+}
+
+.links > .line {
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  bottom: 0;
+  left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
+  width: var(--width, calc(100% / var(--items)));
+  --index: 0;
+  height: 3px;
+  background: #ff4400;
+}
+
+.links > a:hover ~ .line {
+  opacity: 1;
+}
+
+/* Animation basée sur l'ordre des liens */
+.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
+.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
+.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
+.links > a:nth-of-type(4):hover ~ .line { --index: 4; }
+
+
+.links a:active{
+  color: #ff4400;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+
+@media (max-width: 1150px) {
+  /* Reset des styles de base */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .links > a {
+  margin: 0 10px;         /* Espacement horizontal */
+  position: relative;      /* Pour les effets de survol */
+  text-decoration: none;   /* Supprime le soulignement */
+  font-size: 12px;        /* Taille de police */
+  color: #ff4400;
+  padding: 10px 0;
+}
+
+
+}
